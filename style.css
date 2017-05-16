@@ -1,0 +1,195 @@
+body {
+  background-color: #e0e0e0;
+  font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+  border-radius: 4px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  background-color: #00bfa5;
+  margin-bottom: -1000px;
+  padding: 15px 15px 1000px;
+  box-sizing: border-box;
+  color: white;
+  line-height: 1.5;
+}
+
+.main {
+  position: relative;
+  left: 300px;
+  padding: 15px 20px 1000px;
+  margin-bottom: -1000px;
+  background-color: #f0f2f1;
+  width: 700px;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 20px 0 20px;
+  text-align: center;
+}
+
+.title img {
+  margin: 0 auto 15px;
+  display: block;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.title h1 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.title h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.side-info {
+  list-style: none;
+}
+
+.side-info .contact {
+  padding-top: 20px;
+}
+
+.side-info .skill {
+  padding-top: 20px;
+}
+
+.contact dt, .skill dt {
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+.contact dd, .skill dd {
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.skill dd>div {
+  display: inline-block;
+}
+
+.skill dd {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.skill-name {
+  font-size: 14px;
+  width: 70px;
+  vertical-align: middle;
+  
+}
+
+.skill-bar-wrap {
+  height: 17px;
+  width: 150px;
+  background-color: #00796b;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.skill-bar {
+  height: 17px;
+  background-color: white;
+  border-radius: 20px 0 0 20px;
+  transition: width 1s;
+}
+
+.skill-bar:hover {
+  width: 100% !important;
+}
+
+.main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-info>li {
+  margin-top: 20px;
+}
+
+.main-info dt{
+  font-size: 24px;
+  color: #00796b;
+  line-height: 30px;
+  border-bottom: 1px solid #00796b;
+  margin: 0 0 15px 0;
+}
+
+.main-info dd {
+  margin-left: 25px;
+  line-height: 27px;
+}
+
+.main-info dd span {
+  font-weight: bold;
+}
+
+.main-info dd a {
+  text-decoration: none;
+  color: #00bfa5;
+}
+
+.exp {
+  border-left: 2px solid #00796b;
+  margin-left: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.exp>li {
+  position: relative;
+  margin: 0 0 20px 20px;
+}
+
+.exp .circle {
+  width: 14px;
+  height: 14px;
+  background-color: #00796b;
+  border-radius: 50%;
+  position: absolute;
+  left:-28px;;
+}
+
+.exp h4 {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0px;
+}
+
+.exp h4 a {
+  font-size: 12px; 
+  border: 1px solid #00796b;
+  padding: 1px 3px;
+  border-radius: 5px;
+  color: #00796b;
+  text-decoration: none;
+  margin-left: 7px;
+}
+.exp p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.exp img {
+  width: 200px;
+  height: 200px;
+}
